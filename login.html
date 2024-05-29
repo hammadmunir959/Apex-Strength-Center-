@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="login.css">
+
+    <script>
+        function redirectToHome() {
+            window.location.href = 'home.html';
+        }
+
+        function redirectToSignUp() {
+            window.location.href = 'index.php';
+        }
+    </script>
+</head>
+<body>
+    <div id="form"></div>
+        <form action="" method="POST" name="form">
+            <h2>Login/Signup</h2>
+            <!-- Add login/signup form here -->
+            <p>Username: <input type="text"></p>
+            <p>Password: <input type="password"></p>
+            <button>Login</button>
+            <p>Don't have an account? <a href="index.php" target="_blank">Sign Up</a></p>
+        </form>
+    </div>
+</body>
+</html>

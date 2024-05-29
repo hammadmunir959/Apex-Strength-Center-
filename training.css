@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+}
+
+.hover-effect:hover {
+    /* Add your hover styles here */
+    /* For example, changing text color */
+    color: blue;
+    /* Or changing background color */
+    background-color: lightgray;
+    /* Or adding a border */
+    border-bottom: 2px solid blue;
+}
+
+.image{
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 0px;
+}
+
+.left{
+    position: absolute;
+    left: 35px;
+    top: 32px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: square;
+    padding: 0;
+    height: 5px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 3%;
+    margin-left: 15%;
+    line-height: 5px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    color: black;
+    line-height: 5px;
+}
+
+.mid{
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.class-card {
+    background-color: white;
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.class-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.class-card h2 {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}

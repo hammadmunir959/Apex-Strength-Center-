@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(229, 19, 149) !important;
+    overflow: hidden;
+}
+
+#form{
+    background-color: white;
+    width: 25%;
+    border-radius: 5%;
+    margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgb(82, 11, 77);
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 90%;
+    border-radius: 3%;
+    border: 3px solid #f6eff6;
+    padding: 5px;
+}
+
+#btn{
+    width: 100%;
+    color: white;
+    background-color: rgb(108, 22, 189);
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+}
